@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Julee&family=Kanit:wght@500&family=Kaushan+Script&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto&family=VT323&family=Ysabeau+Office&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #434a4a;
+    
+  }
+  *{
+    
+  }
+  h1{
+    margin-top: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    font-family: 'Kanit', sans-serif;
+    color: rgb(168, 47, 220);
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+
+  }
+  .calculator {
+    
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #7fd1fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    background-color: #1c1a1a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    width: 97%;
+    text-align: right;
+    padding: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    background-color: #888686;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .operator:hover {
+    background-color: #477174;
+  }
+  .number:hover{
+    background-color: #dddbdb ;
+  }
+  .zero:hover{
+    background-color: #dddbdb ;
+  }
+  
+  .zero {
+    background-color: #f0f0f0;
+    grid-column: span 2;
+  }
+  
+  .operator {
+    color: #fff;
+    background-color: #040e16;
+  }
+  
+  .number {
+    color: #000;
+    background-color: #f0f0f0;
+  }
+  
+  #calculate {
+    background-color: #146f72;
+    color: #fff
+  }
+ #calculate:hover{
+  background-color: #f9b3c1;
+ }
